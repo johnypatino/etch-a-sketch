@@ -13,8 +13,8 @@ for (let j = 0; j < 16; j++) {
             box.style.backgroundColor = 'blue';
         })
         box.style.flex = '1 0 auto';
-        box.style.minWidth = '20px';
-        box.style.minHeight = '20px';
+     //   box.style.Width = '20px';
+     //  box.style.Height = '20px';
         box.style.borderStyle= 'solid';
         box.style.borderWidth = '1px';
         boxes.appendChild(box);
@@ -42,8 +42,8 @@ btn.addEventListener('click', ()=> {
                 box.style.backgroundColor = 'blue';
             })
             box.style.flex = '1 0 auto';
-            box.style.minWidth = '20px';
-            box.style.minHeight = '20px';
+         //   box.style.minWidth = '20px';
+          //  box.style.minHeight = '20px';
             box.style.borderStyle= 'solid';
             box.style.borderWidth = '1px';
             boxes.appendChild(box);
