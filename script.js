@@ -22,7 +22,7 @@ for (let j = 0; j < 16; j++) {
 }
 const btn = document.querySelector('button');
 btn.addEventListener('click', ()=> {
-    let num = prompt('How many squares on each side? (Max: 100');
+    let num = prompt('How many squares on each side? (Max: 100)');
     while (num > 100) {
         num = prompt('How many squares on each side? (Max: 100');
     }

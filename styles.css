@@ -1,6 +1,8 @@
 
 body {
+    width: 100%;
     margin: 5px;
+
 }
 .container {
     margin: 0 auto;
@@ -8,6 +10,16 @@ body {
     flex-direction: column;
     justify-content: center;
     
+}
+button {
+    width: 200px;
+    height: 50px;
+   margin: 20px;
+
+}
+.heading {
+    justify-content: center;
+    display: flex;
 }
 
 
