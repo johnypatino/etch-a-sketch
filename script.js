@@ -13,8 +13,6 @@ for (let j = 0; j < 16; j++) {
             box.style.backgroundColor = 'blue';
         })
         box.style.flex = '1 0 auto';
-     //   box.style.Width = '20px';
-     //  box.style.Height = '20px';
         box.style.borderStyle= 'solid';
         box.style.borderWidth = '1px';
         boxes.appendChild(box);
@@ -24,7 +22,10 @@ for (let j = 0; j < 16; j++) {
 }
 const btn = document.querySelector('button');
 btn.addEventListener('click', ()=> {
-    let num = prompt('How many squares on each side?');
+    let num = prompt('How many squares on each side? (Max: 100');
+    while (num > 100) {
+        num = prompt('How many squares on each side? (Max: 100');
+    }
     var child = container.firstChild;
     while (child) {
         container.removeChild(child);
@@ -42,8 +43,6 @@ btn.addEventListener('click', ()=> {
                 box.style.backgroundColor = 'blue';
             })
             box.style.flex = '1 0 auto';
-         //   box.style.minWidth = '20px';
-          //  box.style.minHeight = '20px';
             box.style.borderStyle= 'solid';
             box.style.borderWidth = '1px';
             boxes.appendChild(box);
